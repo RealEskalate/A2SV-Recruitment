@@ -1,6 +1,6 @@
 function createCalendarInvitesFromSheet() {
     // Get the active sheet
-    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Week 9'); // Adjust sheet name
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Week 9'); // Adjust sheet tab name
     var dataRange = sheet.getDataRange();
     var data = dataRange.getValues();
   
